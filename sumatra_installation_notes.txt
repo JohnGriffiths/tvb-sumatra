@@ -1,0 +1,127 @@
+
+
+Sumatra Installation Notes
+==========================
+
+I have found Sumatra a real pain to install. 
+
+But seem to be reaching some general solutions. 
+
+Here's some notes:
+
+
+Installation / Sumatra / Gitpython
+----------------------------------
+
+- The main problems I've had have been to do with sumatra and gitpython
+
+  If having problems, uninstall both sumatra and gitpython
+  MAKE SURE you have completely uninstalled them; 
+  ...i.e. 
+  - run 'pip uninstall sumatra' until pip knows nothing, 
+  - open python and try importing sumatra. Shouldn't work. 
+  - Check there's no folders called sumatra in the python library 
+    ( in my case /home/brain/anaconda/lib/python2.7/site-packages ), 
+    ...or anywhere else on PYTHONPATH
+  - which there are no smt binaries 'smt' and 'smtweb' on PYTHONPATH
+  - An option is to use the development version of sumatra from bitbucket. 
+    This might solve some more advanced or specific installation and/or usage problems, but shouldn't  be essential for basic functionality. 
+
+- Same for gitpython. 
+  - You might have several versions of this installed
+  - To test the python installation, start python and type 'import git'
+  - **Important**: need gitpython version > 0.2
+    To install: pip install GitPython==0.3.0-beta1 -I
+    (the '-I' tells it to ignore other installed versions. This shouldn't 
+    be an issue if all the above is done properly though). 
+  - **Important**: make sure pygit (alternative library for python-git binding)
+    is NOT installed. GitPython and pygit can be confused because in both cases you use 'import git'.
+  - Best to install gitpython before sumatra. And/or re-install sumatra after installing gitpython. 
+
+
+
+Once installed, make sure the sumatra library is on the PYTHONPATH, and the location of the smt and smtweb binaries is on PATH. 
+
+
+
+
+
+
+
+
+
+
+Yoavram smt_test github repo
+----------------------------
+
+There's a very useful github repo for testing sumatra installation. 
+Pretty self explanatory
+ 
+  https://github.com/yoavram/smt_test
+
+
+
+Virtualenv
+----------
+
+This in general advisable if possible. 
+
+
+
+
+Other places for info:
+---------------------
+
+sumatra users group (google group)
+
+http://andrewdavison.info/media/files/reproducible_research_CiSE.pdf
+
+http://icerm.brown.edu/materials/Slides/tw-12-5/Sumatra:_a_toolkit_for_provenance_capture_and_reuse_]_Andrew_Davison,_Centre_National_de_la_Recherche_Scientifique_(CNRS).pdf
+(...from that, got: 
+
+
+
+Commit changes
+--------------
+
+
+
+
+
+Run smt configure
+----------------
+
+
+
+
+Add PATH and PYTHONPATH to bash
+-------------------------------
+
+Test run things on cloud services
+--------------------------------
+
+- sagemath cloud
+- wakari
+
+
+
+If encountering these errors...
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
