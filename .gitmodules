@@ -1,0 +1,9 @@
+[submodule "tvb_scripting"]
+	path = tvb_scripting
+	url = git@github.com:JohnGriffiths/tvb-scripting
+[submodule "tvb-scripting"]
+	path = tvb-scripting
+	url = git@github.com:JohnGriffiths/tvb-scripting
+[submodule "tvb_scripting2"]
+	path = tvb_scripting2
+	url = https://github.com/JohnGriffiths/tvb-scripting
