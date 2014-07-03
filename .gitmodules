@@ -1,0 +1,3 @@
+[submodule "tvb-scripting"]
+	path = tvb-scripting
+	url = https://github.com/JohnGriffiths/tvb-scripting
