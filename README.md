@@ -3,7 +3,7 @@
 simulation and tracking and management functionality for tvb using the Sumatra python library. 
 
 
-### What's this then?
+### *What's this then?*
 
 The [package documentation](http://pythonhosted.org/Sumatra) describes Sumatra as  
 
@@ -16,7 +16,7 @@ More specifically, Sumatra uses software version control systems such as git to 
 
 
 
-### Why?
+### *Why?*
 
 If all this sounds a bit techy or abstract, consider the following motivations given in the documentation linked to above:
 
@@ -37,7 +37,7 @@ These scenarios will be familiar to many research scientists. They will most lik
 For a far more comprehensive and informative exposition of Sumatra's rationale and approach, see the package documentation and associated research papers. 
 
 
-### Usage
+### *Usage*
 
 See the 'examples' folder for use cases. 
 
