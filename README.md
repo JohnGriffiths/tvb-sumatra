@@ -3,9 +3,10 @@
 simulation and tracking and management functionality for tvb using the Sumatra python library. 
 
 
-## What's this then?
+### What's this then?
 
-The [package documentation](http://pythonhosted.org/Sumatra) describes Sumatra as
+The [package documentation](http://pythonhosted.org/Sumatra) describes Sumatra as  
+
     *"...a tool for managing and tracking projects based on numerical simulation and/or analysis, with the aim of supporting reproducible research. It can be thought of as an automated electronic lab notebook for computational projects."
 
 
@@ -15,7 +16,7 @@ More specifically, Sumatra uses software version control systems such as git to 
 
 
 
-## Why?
+### Why?
 
 If all this sounds a bit techy or abstract, consider the following motivations given in the documentation linked to above:
 
