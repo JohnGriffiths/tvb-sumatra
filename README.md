@@ -37,7 +37,10 @@ These scenarios will be familiar to many research scientists. They will most lik
 For a far more comprehensive and informative exposition of Sumatra's rationale and approach, see the package documentation and associated research papers. 
 
 
-## Usage
+### Usage
+
+See the 'examples' folder for use cases. 
+
 
 - examples in folder
 - ..tvb examples
