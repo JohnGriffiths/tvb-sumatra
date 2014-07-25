@@ -39,12 +39,28 @@ For a far more comprehensive and informative exposition of Sumatra's rationale a
 
 ### *Usage*
 
-See the 'examples' folder for use cases. 
 
 
-- examples in folder
-- ..tvb examples
-- screenshots...
+*Setup*
+
+
+tvb-sumatra includes tvb-scripting as a submodule. So after cloning the repository, you need to initialize and update submodules; 
+
+    git clone https://github.com/JohnGriffiths/tvb-scripting
+    git submodule init
+    git submodule update
+    
+
+
+*Sumatra requires that the execution code used to run a simulation be under version control. If you have cloned tvb-sumatra then this should already be the case, but it is much better and easier when starting out to create a new folder, copy over the necessary files, and work from there. An example of how one might do this is given in the 'examples' folder. 
+
+Once the code is under version control, and a sumatra project has been set up, simulations can be run from the command-line in a fashion very similar to that used by tvb-scripting; 
+
+    python run_tvb_smt_sims.py <params_file> 
+    
+
+When this is finished, we can now use the sumatra web interface to check through the results of the simulation and the metadata logged. 
+
 
 
 
